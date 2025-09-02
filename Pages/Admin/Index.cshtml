@@ -1,0 +1,17 @@
+﻿@page
+@model AdminIndexModel
+@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "_Layout";
+}
+
+<div class="dashboard">
+    <h2>Welcome, Admin!</h2>
+    <p>This is your admin dashboard. Choose an option below:</p>
+
+    <ul>
+        <li><a href="/Admin/ManageStudents">👩‍🎓 Manage Students</a></li>
+        <li><a href="/Admin/ManageTeachers">👨‍🏫 Manage Teachers</a></li>
+        <li><a href="/Admin/ManageClasses">🏫 Manage Classes</a></li>
+    </ul>
+</div>

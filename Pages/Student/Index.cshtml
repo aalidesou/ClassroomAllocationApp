@@ -1,0 +1,16 @@
+﻿@page
+@model StudentIndexModel
+@{
+    ViewData["Title"] = "Student Dashboard";
+    Layout = "_Layout";
+}
+
+<div class="dashboard">
+    <h2>Welcome, Student!</h2>
+    <p>This is your student dashboard. Choose an option below:</p>
+
+    <ul>
+        <li><a href="/Student/Courses">📚 My Courses</a></li>
+        <li><a href="/Student/Timetable">🗓 My Timetable</a></li>
+    </ul>
+</div>
